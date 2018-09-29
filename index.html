@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS-Dom-Elementor</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="page"></div>
+    <hr class="my-4">
+    <div id="wrap">
+        <div class="card bg-dark m-auto w-75">
+            <h5 class="card-header text-light">
+                <span class="h1 text-warning font-italic mr-2">JavaScript</span> DOM-ELEMENTOR
+                <span class="btn btn-sm btn-danger float-right" onclick="hide_Ele()">X</span>
+            </h5>
+            <div class="card-body row">
+                <div class="input-group">
+                    <input type="text" class="col-2" placeholder="tagName">
+                    <input type="text" class="col-10" placeholder="className">
+                    <input type="text" class="col-2" placeholder="id">
+                    <input type="text" class="col-8" placeholder="innerHTML">
+                    <input type="text" class="col-2" placeholder="parent id">
+                </div>
+                <div class="btn-group mt-2">
+                    <span class="btn btn-warning" onclick="create_Ele()">Create New Element</span>
+                    <span class="btn btn-danger" onclick="remove_Ele()">Remove Last Element</span>
+                    <span class="btn btn-outline-secondary" onclick="reset()">Reset</span>
+                </div>
+            </div>
+            <span class="float-right bg-secondary mt-auto text-light text-center">IDREES MO</span>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
